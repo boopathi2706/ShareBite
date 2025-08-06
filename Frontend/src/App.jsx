@@ -1,13 +1,15 @@
-import './App.css'
-import LandingPage from './Components/LandingPage'
+
+import './App.css';
+
+import DonarDashBoard from './Components/DonarDashBoard';
 
 function App() {
-  
-  return (
-    <>
-      <LandingPage/>
-    </>
-  )
+
+ return (
+ <>
+   <DonarDashBoard />
+  </>
+ );
 }
 
-export default App
+export default App;
