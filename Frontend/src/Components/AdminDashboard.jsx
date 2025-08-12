@@ -29,14 +29,6 @@ const AdminDashboard = () => {
       const [Analytics, setAnalytics] = useState(false);
       const [Settings ,setSettings]=useState(false);
   
-
-
-
-
-
-
-
-
       const handleDashboard = () => {
         setDashboard(true);
         setManageUsers(false);
@@ -250,7 +242,7 @@ const AdminDashboard = () => {
                 onClick={handleSettings}
               >
                 <i className="fa-solid fa-gear"></i>
-                Seetings
+                Settings
               </div>
             </div>
           </div>
